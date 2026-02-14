@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gym_Type__c</fullName>
+    <label>Gym Type</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Boutique</fullName>
+                <default>false</default>
+                <label>Boutique</label>
+            </value>
+            <value>
+                <fullName>Chain</fullName>
+                <default>false</default>
+                <label>Chain</label>
+            </value>
+            <value>
+                <fullName>Independent Coach</fullName>
+                <default>false</default>
+                <label>Independent Coach</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

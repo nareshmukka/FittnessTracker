@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Status__c</fullName>
+    <label>Client Status</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Paused</fullName>
+                <default>false</default>
+                <label>Paused</label>
+            </value>
+            <value>
+                <fullName>Churned</fullName>
+                <default>false</default>
+                <label>Churned</label>
+            </value>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
