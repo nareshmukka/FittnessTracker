@@ -1,87 +1,100 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-
-    <!-- Custom Objects -->
     <types>
-        <members>Trainer_Profile__c</members>
-        <members>Client_Profile__c</members>
-        <members>Trainer_Assignment__c</members>
-        <members>Program__c</members>
-        <members>Training_Session__c</members>
         <members>Body_Metric__c</members>
+        <members>Client_Profile__c</members>
+        <members>Program__c</members>
+        <members>Trainer_Assignment__c</members>
+        <members>Trainer_Profile__c</members>
+        <members>Training_Session__c</members>
         <name>CustomObject</name>
     </types>
-
-    <!-- Custom Fields on Standard Objects (Template 2) -->
     <types>
-        <members>Account.Gym_Type__c</members>
         <members>Account.Active_Members_Count__c</members>
-        <members>Account.Primary_Timezone__c</members>
         <members>Account.Brand_Color__c</members>
+        <members>Account.Gym_Type__c</members>
         <members>Account.Logo_URL__c</members>
-
+        <members>Account.Primary_Timezone__c</members>
+        <members>Body_Metric__c.Client_Profile__c</members>
+        <members>Body_Metric__c.Metric_Date__c</members>
+        <members>Body_Metric__c.Metric_Type__c</members>
+        <members>Body_Metric__c.Source__c</members>
+        <members>Body_Metric__c.Unit__c</members>
+        <members>Body_Metric__c.Value__c</members>
+        <members>Client_Profile__c.Account__c</members>
+        <members>Client_Profile__c.Contact__c</members>
+        <members>Client_Profile__c.Goals_Summary__c</members>
+        <members>Client_Profile__c.Medical_Notes__c</members>
+        <members>Client_Profile__c.Primary_Trainer__c</members>
+        <members>Client_Profile__c.Status__c</members>
         <members>Contact.Client_Status__c</members>
-        <members>Contact.Date_Joined__c</members>
         <members>Contact.DOB__c</members>
+        <members>Contact.Date_Joined__c</members>
+        <members>Contact.Emergency_Contact__c</members>
         <members>Contact.Height__c</members>
         <members>Contact.Preferred_Units__c</members>
-        <members>Contact.Emergency_Contact__c</members>
+        <members>Program__c.Client_Profile__c</members>
+        <members>Program__c.End_Date__c</members>
+        <members>Program__c.Notes__c</members>
+        <members>Program__c.Start_Date__c</members>
+        <members>Program__c.Status__c</members>
+        <members>Program__c.Trainer_Profile__c</members>
+        <members>Trainer_Assignment__c.Active__c</members>
+        <members>Trainer_Assignment__c.Client_Profile__c</members>
+        <members>Trainer_Assignment__c.End_Date__c</members>
+        <members>Trainer_Assignment__c.Role__c</members>
+        <members>Trainer_Assignment__c.Start_Date__c</members>
+        <members>Trainer_Assignment__c.Trainer_Profile__c</members>
+        <members>Trainer_Profile__c.Account__c</members>
+        <members>Trainer_Profile__c.Active__c</members>
+        <members>Trainer_Profile__c.Default_Rate__c</members>
+        <members>Trainer_Profile__c.Default_Session_Duration_Min__c</members>
+        <members>Trainer_Profile__c.Specialties__c</members>
+        <members>Trainer_Profile__c.User__c</members>
+        <members>Training_Session__c.Client_Profile__c</members>
+        <members>Training_Session__c.Duration_Min__c</members>
+        <members>Training_Session__c.Scheduled_Event_Id__c</members>
+        <members>Training_Session__c.Session_DateTime__c</members>
+        <members>Training_Session__c.Status__c</members>
+        <members>Training_Session__c.Summary__c</members>
+        <members>Training_Session__c.Trainer_Profile__c</members>
         <name>CustomField</name>
     </types>
-
-    <!-- Custom Tabs -->
-    <types>
-        <members>Trainer_Profile__c</members>
-        <members>Client_Profile__c</members>
-        <members>Trainer_Assignment__c</members>
-        <members>Program__c</members>
-        <members>Training_Session__c</members>
-        <members>Body_Metric__c</members>
-        <name>CustomTab</name>
-    </types>
-
-    <!-- Permission Sets -->
-    <types>
-        <members>PS_FT_Admin</members>
-        <members>PS_FT_Trainer</members>
-        <members>PS_FT_Staff</members>
-        <members>PS_FT_ReadOnly</members>
-        <name>PermissionSet</name>
-    </types>
-
-    <!-- Permission Set Groups -->
-    <types>
-        <members>PSG_FT_Trainer</members>
-        <name>PermissionSetGroup</name>
-    </types>
-
-    <!-- Apex Classes -->
-    <types>
-        <members>FT_TestDataFactory</members>
-        <members>FT_AssignmentSharingService</members>
-        <members>FT_AssignmentSharingServiceTest</members>
-        <members>FT_ClientDashboardController</members>
-        <members>FT_ClientDashboardControllerTest</members>
-        <name>ApexClass</name>
-    </types>
-
-    <!-- Lightning Web Components -->
-    <types>
-        <members>ftClientDashboard</members>
-        <name>LightningComponentBundle</name>
-    </types>
-
-    <!-- Custom Application (if created) -->
     <types>
         <members>Fitness_Tracker</members>
         <name>CustomApplication</name>
     </types>
-
-    <!-- Custom Labels (safe wildcard if used later) -->
     <types>
-        <members>*</members>
-        <name>CustomLabel</name>
+        <members>Body_Metric__c</members>
+        <members>Client_Profile__c</members>
+        <members>Program__c</members>
+        <members>Trainer_Assignment__c</members>
+        <members>Trainer_Profile__c</members>
+        <members>Training_Session__c</members>
+        <name>CustomTab</name>
     </types>
-
+    <types>
+        <members>FT_AssignmentSharingService</members>
+        <members>FT_AssignmentSharingServiceTest</members>
+        <members>FT_ClientDashboardController</members>
+        <members>FT_ClientDashboardControllerTest</members>
+        <members>FT_TestDataFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ftClientDashboard</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>PS_FT_Admin</members>
+        <members>PS_FT_ReadOnly</members>
+        <members>PS_FT_Staff</members>
+        <members>PS_FT_Trainer</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>PSG_FT_Trainer</members>
+        <name>PermissionSetGroup</name>
+    </types>
     <version>60.0</version>
 </Package>
