@@ -1,0 +1,8 @@
+# Global fallback ownership
+* @fitnesstracker-admins
+
+# Salesforce metadata
+force-app/main/default/ @fitnesstracker-salesforce-devs
+
+# Project documentation
+docs/ @fitnesstracker-salesforce-devs
