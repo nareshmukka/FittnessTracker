@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <label>Body Metric</label>
+    <nameField>
+        <displayFormat>BM-{{0000}}</displayFormat>
+        <label>Body Metric Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Body Metrics</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
