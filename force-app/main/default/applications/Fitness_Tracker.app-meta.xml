@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Fitness Tracker Lightning app.</description>
+    <label>Fitness Tracker</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Trainer_Profile__c</tabs>
+    <tabs>Client_Profile__c</tabs>
+    <tabs>Trainer_Assignment__c</tabs>
+    <tabs>Program__c</tabs>
+    <tabs>Training_Session__c</tabs>
+    <tabs>Body_Metric__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

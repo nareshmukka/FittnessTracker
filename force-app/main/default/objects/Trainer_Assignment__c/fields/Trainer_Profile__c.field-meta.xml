@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trainer_Profile__c</fullName>
+    <description>Trainer Profile field for Fitness Tracker.</description>
+    <label>Trainer Profile</label>
+    <type>Lookup</type>
+    <referenceTo>Trainer_Profile__c</referenceTo>
+    <relationshipLabel>Trainer Profile</relationshipLabel>
+    <relationshipName>TrainerProfile</relationshipName>
+    <required>true</required>
+</CustomField>

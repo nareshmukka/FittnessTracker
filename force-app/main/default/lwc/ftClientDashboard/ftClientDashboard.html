@@ -1,0 +1,54 @@
+<template>
+  <lightning-card
+    title="Fitness Tracker - Client Dashboard"
+    icon-name="standard:people"
+  >
+    <template if:true={clients.data}>
+      <div class="slds-p-around_small">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+          <thead>
+            <tr class="slds-line-height_reset">
+              <th scope="col">
+                <div class="slds-truncate" title="Name">Name</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Status">Status</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Primary Trainer">
+                  Primary Trainer
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <template for:each={clients.data} for:item="client">
+              <tr key={client.clientProfileId}>
+                <td>
+                  <div class="slds-truncate" title={client.name}>
+                    {client.name}
+                  </div>
+                </td>
+                <td>
+                  <div class="slds-truncate" title={client.status}>
+                    {client.status}
+                  </div>
+                </td>
+                <td>
+                  <div class="slds-truncate" title={client.primaryTrainerName}>
+                    {client.primaryTrainerName}
+                  </div>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+    </template>
+    <template if:true={clients.error}>
+      <div class="slds-text-color_error slds-p-around_small">
+        Unable to load client profiles.
+      </div>
+    </template>
+  </lightning-card>
+</template>
