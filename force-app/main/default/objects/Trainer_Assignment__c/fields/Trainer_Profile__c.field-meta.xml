@@ -6,6 +6,7 @@
     <type>Lookup</type>
     <referenceTo>Trainer_Profile__c</referenceTo>
     <relationshipLabel>Trainer Profile</relationshipLabel>
-    <relationshipName>TrainerProfile</relationshipName>
+    <relationshipName>TrainerAssignments</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
     <required>true</required>
 </CustomField>

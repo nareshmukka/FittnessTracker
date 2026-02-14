@@ -4,10 +4,10 @@
     <enableActivities>true</enableActivities>
     <label>Trainer Assignment</label>
     <nameField>
-        <displayFormat>TA-{{0000}}</displayFormat>
+        <displayFormat>TA-{0000}</displayFormat>
         <label>Trainer Assignment Number</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Trainer Assignments</pluralLabel>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

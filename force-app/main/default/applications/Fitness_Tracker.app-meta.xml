@@ -10,5 +10,7 @@
     <tabs>Program__c</tabs>
     <tabs>Training_Session__c</tabs>
     <tabs>Body_Metric__c</tabs>
+    <formFactors>Large</formFactors>
+    <formFactors>Small</formFactors>
     <uiType>Lightning</uiType>
 </CustomApplication>

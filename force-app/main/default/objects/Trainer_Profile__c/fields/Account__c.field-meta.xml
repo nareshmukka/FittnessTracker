@@ -5,6 +5,6 @@
     <label>Account</label>
     <type>Lookup</type>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>Account</relationshipLabel>
-    <relationshipName>Account</relationshipName>
+    <relationshipLabel>Trainer Profiles</relationshipLabel>
+    <relationshipName>TrainerProfiles</relationshipName>
 </CustomField>

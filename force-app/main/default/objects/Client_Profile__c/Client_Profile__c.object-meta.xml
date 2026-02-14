@@ -4,7 +4,7 @@
     <enableActivities>true</enableActivities>
     <label>Client Profile</label>
     <nameField>
-        <displayFormat>CP-{{0000}}</displayFormat>
+        <displayFormat>CP-{0000}</displayFormat>
         <label>Client Profile Number</label>
         <type>AutoNumber</type>
     </nameField>

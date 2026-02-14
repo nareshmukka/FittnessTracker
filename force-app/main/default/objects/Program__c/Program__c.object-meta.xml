@@ -4,7 +4,7 @@
     <enableActivities>true</enableActivities>
     <label>Program</label>
     <nameField>
-        <displayFormat>PR-{{0000}}</displayFormat>
+        <displayFormat>PR-{0000}</displayFormat>
         <label>Program Number</label>
         <type>AutoNumber</type>
     </nameField>

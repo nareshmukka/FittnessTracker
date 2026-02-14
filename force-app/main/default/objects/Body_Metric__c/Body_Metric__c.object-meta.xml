@@ -4,7 +4,7 @@
     <enableActivities>true</enableActivities>
     <label>Body Metric</label>
     <nameField>
-        <displayFormat>BM-{{0000}}</displayFormat>
+        <displayFormat>BM-{0000}</displayFormat>
         <label>Body Metric Number</label>
         <type>AutoNumber</type>
     </nameField>

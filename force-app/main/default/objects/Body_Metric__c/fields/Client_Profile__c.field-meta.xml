@@ -6,6 +6,7 @@
     <type>Lookup</type>
     <referenceTo>Client_Profile__c</referenceTo>
     <relationshipLabel>Client Profile</relationshipLabel>
-    <relationshipName>ClientProfile</relationshipName>
+    <relationshipName>BodyMetrics</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
     <required>true</required>
 </CustomField>

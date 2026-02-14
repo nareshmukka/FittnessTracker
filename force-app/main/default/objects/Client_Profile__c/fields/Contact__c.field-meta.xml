@@ -7,5 +7,6 @@
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Contact</relationshipLabel>
     <relationshipName>Contact</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
     <required>true</required>
 </CustomField>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Custom Objects -->
+    <types>
+        <members>Trainer_Profile__c</members>
+        <members>Client_Profile__c</members>
+        <members>Trainer_Assignment__c</members>
+        <members>Program__c</members>
+        <members>Training_Session__c</members>
+        <members>Body_Metric__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Fields on Standard Objects (Template 2) -->
+    <types>
+        <members>Account.Gym_Type__c</members>
+        <members>Account.Active_Members_Count__c</members>
+        <members>Account.Primary_Timezone__c</members>
+        <members>Account.Brand_Color__c</members>
+        <members>Account.Logo_URL__c</members>
+
+        <members>Contact.Client_Status__c</members>
+        <members>Contact.Date_Joined__c</members>
+        <members>Contact.DOB__c</members>
+        <members>Contact.Height__c</members>
+        <members>Contact.Preferred_Units__c</members>
+        <members>Contact.Emergency_Contact__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Custom Tabs -->
+    <types>
+        <members>Trainer_Profile__c</members>
+        <members>Client_Profile__c</members>
+        <members>Trainer_Assignment__c</members>
+        <members>Program__c</members>
+        <members>Training_Session__c</members>
+        <members>Body_Metric__c</members>
+        <name>CustomTab</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>PS_FT_Admin</members>
+        <members>PS_FT_Trainer</members>
+        <members>PS_FT_Staff</members>
+        <members>PS_FT_ReadOnly</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Permission Set Groups -->
+    <types>
+        <members>PSG_FT_Trainer</members>
+        <name>PermissionSetGroup</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>FT_TestDataFactory</members>
+        <members>FT_AssignmentSharingService</members>
+        <members>FT_AssignmentSharingServiceTest</members>
+        <members>FT_ClientDashboardController</members>
+        <members>FT_ClientDashboardControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Lightning Web Components -->
+    <types>
+        <members>ftClientDashboard</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <!-- Custom Application (if created) -->
+    <types>
+        <members>Fitness_Tracker</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <!-- Custom Labels (safe wildcard if used later) -->
+    <types>
+        <members>*</members>
+        <name>CustomLabel</name>
+    </types>
+
+    <version>60.0</version>
+</Package>
