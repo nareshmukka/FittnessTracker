@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Body_Metric__c</members>
@@ -74,12 +74,45 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>FT_CasePicklistDependencyMatrixActionV2</members>
+        <members>FT_CasePicklistMatrixV2Test</members>
         <members>FT_AssignmentSharingService</members>
         <members>FT_AssignmentSharingServiceTest</members>
         <members>FT_ClientDashboardController</members>
         <members>FT_ClientDashboardControllerTest</members>
         <members>FT_TestDataFactory</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Fitness_CX_Agent_V1</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>Fitness_CX_Agent_V1</members>
+        <name>BotVersion</name>
+    </types>
+    <types>
+        <members>FLO_CreateContactRecords_FT_v2</members>
+        <members>FLO_CreateSupportCase_FT_v2</members>
+        <members>FLO_SendVerificationCode_FT_v2</members>
+        <members>FLO_VerifyEmailAndFindContact_FT_v2</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Create_Contact_Records_FT_v2</members>
+        <members>Create_Support_Case_FT_v2</members>
+        <members>Get_Case_Picklist_Values_FT_v2</members>
+        <members>Send_Verification_Code_FT_v2</members>
+        <members>Verify_Email_And_Find_Contact_FT_v2</members>
+        <name>GenAiFunction</name>
+    </types>
+    <types>
+        <members>Fitness_CX_Agent_V1</members>
+        <name>GenAiPlannerBundle</name>
+    </types>
+    <types>
+        <members>FT_Support_Case_Creation_v2</members>
+        <name>GenAiPlugin</name>
     </types>
     <types>
         <members>ftClientDashboard</members>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentType>EinsteinServiceAgent</agentType>
+    <botLanguage>en_US</botLanguage>
+    <developerName>Fitness_CX_Agent_V1</developerName>
+    <description
+  >Fitness Tracker web support agent for verification and case intake.</description>
+    <label>Fitness CX Agent V1</label>
+    <masterLabel>Fitness CX Agent V1</masterLabel>
+    <plannerName>Fitness_CX_Agent_V1</plannerName>
+</Bot>

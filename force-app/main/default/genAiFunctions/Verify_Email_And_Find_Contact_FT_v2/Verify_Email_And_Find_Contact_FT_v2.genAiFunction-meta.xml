@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Verify_Email_And_Find_Contact_FT_v2</developerName>
+    <invocationTargetType>flow</invocationTargetType>
+    <invocationTargetName
+  >FLO_VerifyEmailAndFindContact_FT_v2</invocationTargetName>
+    <label>Verify Email and Find Contact FT v2</label>
+</GenAiFunction>
