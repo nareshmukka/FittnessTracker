@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <description
+  >Creates missing contact records for Fitness Tracker support interactions.</description>
+    <label>FLO Create Contact Records FT v2</label>
+    <processType>AutoLaunchedFlow</processType>
+    <status>Active</status>
+    <variables><name>customerName</name><dataType>String</dataType><isInput
+    >true</isInput><isOutput>false</isOutput></variables>
+    <variables><name>endUserEmail</name><dataType>String</dataType><isInput
+    >true</isInput><isOutput>false</isOutput></variables>
+    <variables><name>existingContactId</name><dataType>String</dataType><isInput
+    >true</isInput><isOutput>false</isOutput></variables>
+    <variables><name>isVerified</name><dataType>Boolean</dataType><isInput
+    >true</isInput><isOutput>false</isOutput></variables>
+    <variables><name>phoneNumber</name><dataType>String</dataType><isInput
+    >true</isInput><isOutput>false</isOutput></variables>
+    <variables><name>contactId</name><dataType>String</dataType><isInput
+    >false</isInput><isOutput>true</isOutput></variables>
+    <variables><name>status</name><dataType>String</dataType><isInput
+    >false</isInput><isOutput>true</isOutput></variables>
+    <variables><name>outMessage</name><dataType>String</dataType><isInput
+    >false</isInput><isOutput>true</isOutput></variables>
+</Flow>

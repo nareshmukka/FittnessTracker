@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Get_Case_Picklist_Values_FT_v2</developerName>
+    <invocationTargetType>apex</invocationTargetType>
+    <invocationTargetName
+  >FT_CasePicklistDependencyMatrixActionV2</invocationTargetName>
+    <label>Get Case Picklist Values FT v2</label>
+</GenAiFunction>

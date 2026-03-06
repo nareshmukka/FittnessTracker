@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Planner bundle for Fitness Tracker service interactions.</description>
+    <developerName>Fitness_CX_Agent_V1</developerName>
+    <label>Fitness CX Agent V1</label>
+    <plannerInstructions>Always verify customer email before creating a support case. Use one final response and do not claim success without action output.</plannerInstructions>
+    <topics>
+        <description>General product and membership FAQ questions.</description>
+        <developerName>GeneralFAQ</developerName>
+        <instructions>Answer only using approved knowledge responses. If unresolved, hand off to support case workflow.</instructions>
+        <label>General FAQ</label>
+    </topics>
+    <topics>
+        <description>Structured support case creation for Fitness Tracker.</description>
+        <developerName>Support_Case_Creation_FT_v2</developerName>
+        <instructions>Follow strict order: send code, verify code, ensure contact, fetch picklists, then create case.</instructions>
+        <label>Support Case Creation FT v2</label>
+    </topics>
+</GenAiPlannerBundle>

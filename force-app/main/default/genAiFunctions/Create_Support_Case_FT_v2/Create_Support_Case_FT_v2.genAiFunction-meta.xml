@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Create_Support_Case_FT_v2</developerName>
+    <invocationTargetType>flow</invocationTargetType>
+    <invocationTargetName>FLO_CreateSupportCase_FT_v2</invocationTargetName>
+    <label>Create Support Case FT v2</label>
+</GenAiFunction>
